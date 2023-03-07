@@ -1,0 +1,104 @@
+/* universal selector */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+    padding:30px;
+    outline: 0;
+}
+/* name selector */
+body{
+    background-color: cadetblue;
+    color:blue
+}
+/* id selector */
+#admin-box{
+    width:50%;
+    border:2px solid;
+    margin:10% auto;
+    text-align: center;
+}
+/* combinator selector */
+#admin-box h1{
+    font-size: 35px;
+    line-height:35px ;
+    margin:10px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* grouping selector */
+input, label{
+    display:block;
+    width:90%;
+    margin:auto;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight:400px ;
+}
+input{
+    background-color: transparent;
+    border:2px solid;
+    color:brown
+}
+/* attribute selector */
+input[type="submit"]{
+    margin:15px auto;
+}
+/* psudo class selector */
+input:focus{
+    background-color: brown;
+    color:black
+}
+input[type="submit"]:hover{
+    background-color: chartreuse;
+}
+/* attribute selector */
+input[type="text"]{
+    margin:15px auto;
+}
+/* psudo class selector */
+input[type="text"]:hover{
+    background-color: chartreuse;
+}
+/* attribute selector */
+input[type="pass"]{
+    margin:15px auto;
+}
+/* psudo class selector */
+input[type="pass"]:hover{
+    background-color: chartreuse;
+}
+/* attribute selector */
+input[type="mail"]{
+    margin:15px auto;
+}
+/* psudo class selector */
+input[type="mail"]:hover{
+    background-color: chartreuse;
+}
+/* attribute selector */
+input[type="first name"]{
+    margin:15px auto;
+}
+
+/* psudo class selector */
+input[type="last name"]:hover{
+    background-color: chartreuse;
+}
+/* psudo element selector */
+input::placeholder{
+    color:crimson
+}
+/* class selector */
+.pg{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pg a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
